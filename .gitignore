@@ -1,0 +1,10 @@
+hardware_design/spectrum-portal/*.lck
+hardware_design/spectrum-portal/*_autosave-*.kicad_pcb
+hardware_design/spectrum-portal/fp-info-cache
+hardware_design/spectrum-portal/*~
+hardware_design/spectrum-portal/*.bak
+hardware_design/spectrum-portal/*-bak
+hardware_design/spectrum-portal/spectrum-portal-backups/
+hardware_design/spectrum-portal/*.ses
+hardware_design/spectrum-portal/backup/
+hardware_design/spectrum-portal/lib/logs/

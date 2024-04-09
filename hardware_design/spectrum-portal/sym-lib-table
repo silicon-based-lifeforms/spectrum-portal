@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Eurorack_Power_Connector")(type "KiCad")(uri "${KIPRJMOD}/lib/PowerConnector/SBH11-PBPC-D05-ST-BK.kicad_sym")(options "")(descr ""))
+)

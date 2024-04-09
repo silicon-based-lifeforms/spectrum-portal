@@ -18,3 +18,16 @@ Spectrum Portal is a **work-in-progress** open-hardware Eurorack module for inte
 - I wanted something more robust than a passive adapter/cable, that lived inside the rack as a dedicated module. 
 - I just want to design and build eurorack modules.
 - I want to further the proliferation of open-hardware eurorack modules across the galaxy
+
+## design goals
+- Open-hardware
+- Must be fully user-servicable and user-buildable (big SMD components that are easy to hand-solder are fine, tiny packages that require specialized equipment is not fine) 
+
+
+## contributing
+Contributions are heavily encouraged! There are many areas where the design can be significantly improved (it's still a work-in-progress, afterall).
+
+## licensing
+- The hardware is licensed under the strongly reciprocal variant of the [CERN Open Hardware License](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2) (specifically CERN-OHL-S).
+- There's no source code for this module, it's a pure hardware affair. But any future modules that have firmware will have that firmware licensed under the GNU GPL v3.
+- There's no documentation (yet), but any future documentation will be licensed under an appropriate open-source license.

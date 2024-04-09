@@ -2571,7 +2571,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 180.34) (xy 147.32 185.42)
+			(xy 134.62 175.26) (xy 134.62 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2831,7 +2831,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 130.81) (xy 147.32 134.62)
+			(xy 134.62 125.73) (xy 134.62 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3173,7 +3173,7 @@
 		(start 154.94 25.4)
 		(end 281.94 99.06)
 		(stroke
-			(width 0)
+			(width 0.254)
 			(type default)
 		)
 		(fill
@@ -3183,7 +3183,7 @@
 	)
 	(rectangle
 		(start 72.39 55.88)
-		(end 102.87 78.74)
+		(end 100.33 78.74)
 		(stroke
 			(width 0)
 			(type default)
@@ -3257,6 +3257,25 @@
 		)
 		(uuid "86667b1c-dc71-4051-ad06-2bd82cec744f")
 	)
+	(text_box "ESD"
+		(exclude_from_sim no)
+		(at 177.165 43.815 0)
+		(size 10.16 40.64)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "93a68888-0ff5-4a8b-ba07-0df5364e12d5")
+	)
 	(text_box "Reverse Polarity Protection"
 		(exclude_from_sim no)
 		(at 50.8 137.16 0)
@@ -3276,12 +3295,33 @@
 		)
 		(uuid "9a2ffd11-a7e8-41c6-85b8-eed1c093ccb7")
 	)
+	(text_box "ESD"
+		(exclude_from_sim no)
+		(at 35.56 44.45 0)
+		(size 10.16 40.64)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "bcacbe2f-68b2-4b0a-a4e2-216aee35d010")
+	)
 	(text "OSCILLOSCOPE OUT"
 		(exclude_from_sim no)
 		(at 266.192 28.956 0)
 		(effects
 			(font
 				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
 			)
 		)
 		(uuid "306f7729-62b9-465a-8c9a-13c3882a7628")
@@ -3292,11 +3332,13 @@
 		(effects
 			(font
 				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
 			)
 		)
 		(uuid "365ddb1c-6980-4531-9b40-064bca7fd6e2")
 	)
-	(text "R1 is an input series protection resistor.\nD1 and D2 are \nR1 and R4 are pull-down resistors to prevent floating inputs to the op-amps.\nR3 and R6 are series protection resistors for the BNC outputs.\nR2 and R5 are for stabilizing the op-amps"
+	(text "R1 and R5 are series input protection resistors.\nR2 and R6 are pull-down resistors to prevent floating inputs to the op-amps.\nR4 and R8 are series protection resistors for the BNC outputs.\n"
 		(exclude_from_sim no)
 		(at 17.78 106.68 0)
 		(effects
@@ -3313,6 +3355,8 @@
 		(effects
 			(font
 				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
 			)
 		)
 		(uuid "468a604b-1e45-49d8-8f39-de5ea5178b01")
@@ -3323,27 +3367,32 @@
 		(effects
 			(font
 				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
 			)
 		)
 		(uuid "6b9e4079-6843-4008-8c89-91f3b0d13a48")
 	)
 	(text "CHANNEL 1"
 		(exclude_from_sim no)
-		(at 68.58 20.32 0)
+		(at 84.582 21.844 0)
 		(effects
 			(font
 				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
 			)
 		)
 		(uuid "79e9f1aa-ad78-490c-87d0-06ed71b49708")
 	)
-	(text "Op-amp in a unity gain buffer configuration"
+	(text "Op-amp in a unity \ngain buffer configuration"
 		(exclude_from_sim no)
-		(at 222.25 53.34 0)
+		(at 211.074 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "7b12fa3b-e054-4002-a2ef-f3d284c11664")
 	)
@@ -3353,26 +3402,31 @@
 		(effects
 			(font
 				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
 			)
 		)
 		(uuid "88deeaa2-9ecd-4f68-bb39-f54926b27bae")
 	)
-	(text "Op-amp in a unity gain buffer configuration"
+	(text "Op-amp in a unity \ngain buffer configuration"
 		(exclude_from_sim no)
-		(at 88.9 53.34 0)
+		(at 72.898 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "b08a2ba5-2a79-4f67-9e57-a36ca669d33c")
 	)
 	(text "CHANNEL 2"
 		(exclude_from_sim no)
-		(at 208.28 20.32 0)
+		(at 215.138 22.352 0)
 		(effects
 			(font
 				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
 			)
 		)
 		(uuid "e5c58820-c129-4128-8d25-90e523294bfe")
@@ -3383,6 +3437,8 @@
 		(effects
 			(font
 				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
 			)
 		)
 		(uuid "f58e0bf7-e59d-486d-bf73-fc11eb99e1e8")
@@ -3422,7 +3478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+		(property "Datasheet" ""
 			(at 222.25 68.58 0)
 			(effects
 				(font
@@ -3440,25 +3496,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
-			(at 222.25 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIGIKEY_PART" "296-7194-1-ND"
-			(at 222.25 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
 			(at 222.25 68.58 0)
 			(effects
 				(font
@@ -3508,7 +3546,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1deda67e-1020-4d6d-a0c8-68660b9a087c")
 		(property "Reference" "R4"
 			(at 129.54 38.0999 0)
@@ -3546,7 +3583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/4W Metal-Film Resistor, Min. 2% Tolerance"
+		(property "Description" "1/4W Thin-Film Resistor, 1% Tolerance"
 			(at 127 39.37 0)
 			(effects
 				(font
@@ -3555,7 +3592,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
+		(property "DIGIKEY_PART" "311-47.0FRCT-ND"
 			(at 127 39.37 0)
 			(effects
 				(font
@@ -3564,17 +3601,8 @@
 				(hide yes)
 			)
 		)
-		(property "DIGIKEY_PART" "S47CATR-ND"
-			(at 127 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 127 39.37 0)
+		(property "Rating" "1% 1/4W"
+			(at 129.794 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3657,6 +3685,15 @@
 				)
 			)
 		)
+		(property "DIGIKEY_PART" "1934-1489-1-ND"
+			(at 194.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "449f0781-a7e0-41f2-8d56-8718005fdcb6")
 		)
@@ -3730,6 +3767,15 @@
 				(font
 					(size 0.889 0.889)
 				)
+			)
+		)
+		(property "DIGIKEY_PART" "1934-1489-1-ND"
+			(at 54.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3956,7 +4002,7 @@
 		(fields_autoplaced yes)
 		(uuid "221debc8-107a-4053-a543-2a10de393a87")
 		(property "Reference" "J6"
-			(at 271.78 34.5831 0)
+			(at 271.78 35.2181 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3964,8 +4010,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "J998-ND"
-			(at 271.78 37.1231 0)
+		(property "Value" "~"
+			(at 271.78 37.1232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3973,7 +4019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMA:LINX_CONSMA008-G"
+		(property "Footprint" "SMA:CONN_132291_AMP"
 			(at 267.97 35.56 0)
 			(effects
 				(font
@@ -3991,7 +4037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "SMA-F bulkhead connector "
 			(at 267.97 35.56 0)
 			(effects
 				(font
@@ -4000,25 +4046,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
-			(at 267.97 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY_PART" "J998-ND"
-			(at 267.97 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Cinch Connectivity Solutions Johnson"
+		(property "DIGIKEY_PART" "ACX1976-ND"
 			(at 267.97 35.56 0)
 			(effects
 				(font
@@ -4086,7 +4114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" "Thonkiconn 3.5mm Jack (PJ398SM)"
 			(at 137.16 71.12 0)
 			(effects
 				(font
@@ -4095,16 +4123,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
-			(at 137.16 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY_PART" ""
+		(property "DIGIKEY_PART" "NOT DIGIKEY PRODUCT"
 			(at 137.16 71.12 0)
 			(effects
 				(font
@@ -4186,6 +4205,15 @@
 				(font
 					(size 0.889 0.889)
 				)
+			)
+		)
+		(property "DIGIKEY_PART" "1934-1489-1-ND"
+			(at 101.6 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4281,7 +4309,7 @@
 		(fields_autoplaced yes)
 		(uuid "3308e4d4-2b96-4b03-b557-0d0f50f23ed8")
 		(property "Reference" "J3"
-			(at 140.97 34.5831 0)
+			(at 140.97 35.2181 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,8 +4317,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "J998-ND"
-			(at 140.97 37.1231 0)
+		(property "Value" "~"
+			(at 140.97 37.1232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,7 +4326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMA:LINX_CONSMA008-G"
+		(property "Footprint" "SMA:CONN_132291_AMP"
 			(at 137.16 35.56 0)
 			(effects
 				(font
@@ -4316,7 +4344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "SMA-F bulkhead connector "
 			(at 137.16 35.56 0)
 			(effects
 				(font
@@ -4325,25 +4353,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
-			(at 137.16 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY_PART" "J998-ND"
-			(at 137.16 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Cinch Connectivity Solutions Johnson"
+		(property "DIGIKEY_PART" "ACX1976-ND"
 			(at 137.16 35.56 0)
 			(effects
 				(font
@@ -4392,6 +4402,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
@@ -4412,25 +4423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 181.61 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 181.61 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Description" "Transient Voltage Suppression diode"
 			(at 181.61 58.42 0)
 			(effects
 				(font
@@ -4605,7 +4598,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 147.32 138.43 0)
+		(at 134.62 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4614,7 +4607,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c360a46-e53d-4684-8c8e-b885b0bb73a0")
 		(property "Reference" "C1"
-			(at 151.13 136.2709 0)
+			(at 138.43 131.1909 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4623,7 +4616,7 @@
 			)
 		)
 		(property "Value" "10µF 25V"
-			(at 151.13 138.8109 0)
+			(at 138.43 133.7309 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4632,7 +4625,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
-			(at 148.2852 142.24 0)
+			(at 135.5852 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4641,7 +4634,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 138.43 0)
+			(at 134.62 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4650,25 +4643,7 @@
 			)
 		)
 		(property "Description" "Polarized aluminum electrolytic capacitor"
-			(at 147.32 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 147.32 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.ca/short/j2zw22p9"
-			(at 147.32 138.43 0)
+			(at 134.62 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,7 +4652,7 @@
 			)
 		)
 		(property "DIGIKEY_PART" "P14488-ND"
-			(at 147.32 138.43 0)
+			(at 134.62 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,7 +4719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" "Thonkiconn 3.5mm Jack (PJ398SM)"
 			(at 267.97 71.12 0)
 			(effects
 				(font
@@ -4753,16 +4728,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
-			(at 267.97 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY_PART" ""
+		(property "DIGIKEY_PART" "NOT DIGIKEY PRODUCT"
 			(at 267.97 71.12 0)
 			(effects
 				(font
@@ -4788,7 +4754,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 147.32 176.53 0)
+		(at 134.62 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4797,7 +4763,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c892a83-4ae2-4c5c-9335-db6f892efad5")
 		(property "Reference" "C4"
-			(at 151.13 174.3709 0)
+			(at 138.43 169.2909 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4806,7 +4772,7 @@
 			)
 		)
 		(property "Value" "10µF 25V"
-			(at 151.13 176.9109 0)
+			(at 138.43 171.8309 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4815,7 +4781,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
-			(at 148.2852 180.34 0)
+			(at 135.5852 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4824,7 +4790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 176.53 0)
+			(at 134.62 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4833,25 +4799,7 @@
 			)
 		)
 		(property "Description" "Polarized aluminum electrolytic capacitor"
-			(at 147.32 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 147.32 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.ca/short/j2zw22p9"
-			(at 147.32 176.53 0)
+			(at 134.62 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,7 +4808,7 @@
 			)
 		)
 		(property "DIGIKEY_PART" "P14488-ND"
-			(at 147.32 176.53 0)
+			(at 134.62 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4929,7 +4877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/4W Metal-Film Resistor, Min. 2% Tolerance"
+		(property "Description" "1/4W Thin-Film Resistor, 1% Tolerance"
 			(at 64.77 82.55 0)
 			(effects
 				(font
@@ -4938,25 +4886,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
-			(at 64.77 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY_PART" "RNF14FTD10M0CT-ND"
-			(at 64.77 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
+		(property "DIGIKEY_PART" "311-100KFRCT-ND"
 			(at 64.77 82.55 0)
 			(effects
 				(font
@@ -5024,7 +4954,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "1/4W Thin-Film Resistor, 1% Tolerance"
+			(at 31.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY_PART" "311-1.00KFRCT-ND"
 			(at 31.75 66.04 0)
 			(effects
 				(font
@@ -5092,7 +5031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" "Thonkiconn 3.5mm Jack (PJ398SM)"
 			(at 19.05 68.58 0)
 			(effects
 				(font
@@ -5101,16 +5040,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
-			(at 19.05 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY_PART" ""
+		(property "DIGIKEY_PART" "NOT DIGIKEY PRODUCT"
 			(at 19.05 68.58 0)
 			(effects
 				(font
@@ -5178,7 +5108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" "Thonkiconn 3.5mm Jack (PJ398SM)"
 			(at 162.56 68.58 0)
 			(effects
 				(font
@@ -5187,16 +5117,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
-			(at 162.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY_PART" ""
+		(property "DIGIKEY_PART" "NOT DIGIKEY PRODUCT"
 			(at 162.56 68.58 0)
 			(effects
 				(font
@@ -5339,24 +5260,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 59.69 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 59.69 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Rating" "30V/500mA"
 			(at 59.3725 149.86 0)
 			(effects
@@ -5391,7 +5294,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 147.32 168.91 0)
+		(at 134.62 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5400,7 +5303,7 @@
 		(fields_autoplaced yes)
 		(uuid "86b6ed1c-a69f-41ea-b268-ecdbf814c7f9")
 		(property "Reference" "C3"
-			(at 151.13 167.6399 0)
+			(at 138.43 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +5312,7 @@
 			)
 		)
 		(property "Value" "0.1µF 25V"
-			(at 151.13 170.1799 0)
+			(at 138.43 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,7 +5321,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 148.2852 172.72 0)
+			(at 135.5852 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,8 +5329,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C322C102K1R5TA.pdf"
-			(at 147.32 168.91 0)
+		(property "Datasheet" ""
+			(at 134.62 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5436,7 +5339,7 @@
 			)
 		)
 		(property "Description" "Unpolarized ceramic capacitor"
-			(at 147.32 168.91 0)
+			(at 134.62 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5444,26 +5347,8 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
-			(at 147.32 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY_PART" "399-9776-ND"
-			(at 147.32 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Kemet"
-			(at 147.32 168.91 0)
+		(property "DIGIKEY_PART" "4713-GMT31X5R106K50NT2CT-ND"
+			(at 134.62 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +5373,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
-		(at 149.86 157.48 0)
+		(at 137.16 152.4 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5497,7 +5382,7 @@
 		(fields_autoplaced yes)
 		(uuid "88ae40d2-f41b-4488-98bd-a197cf7b8bbd")
 		(property "Reference" "U1"
-			(at 148.59 156.2099 0)
+			(at 135.89 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,7 +5391,7 @@
 			)
 		)
 		(property "Value" "TL072IDR"
-			(at 148.59 158.7499 0)
+			(at 135.89 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5515,7 +5400,7 @@
 			)
 		)
 		(property "Footprint" "TL072:SOIC127P599X175-8N"
-			(at 149.86 157.48 0)
+			(at 137.16 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5523,8 +5408,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 149.86 157.48 0)
+		(property "Datasheet" ""
+			(at 137.16 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,16 +5418,7 @@
 			)
 		)
 		(property "Description" "TL072 DIP-8/SOIC-8"
-			(at 149.86 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" ""
-			(at 149.86 157.48 0)
+			(at 137.16 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,16 +5427,7 @@
 			)
 		)
 		(property "DIGIKEY_PART" "296-7194-1-ND"
-			(at 149.86 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 149.86 157.48 0)
+			(at 137.16 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5777,7 +5644,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "1/4W Thin-Film Resistor, 1% Tolerance"
+			(at 173.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY_PART" "311-1.00KFRCT-ND"
 			(at 173.99 66.04 0)
 			(effects
 				(font
@@ -5847,7 +5723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/4W Metal-Film Resistor, Min. 2% Tolerance"
+		(property "Description" "1/4W Thin-Film Resistor, 1% Tolerance"
 			(at 201.93 82.55 0)
 			(effects
 				(font
@@ -5856,25 +5732,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
-			(at 201.93 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY_PART" "RNF14FTD10M0CT-ND"
-			(at 201.93 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
+		(property "DIGIKEY_PART" "311-100KFRCT-ND"
 			(at 201.93 82.55 0)
 			(effects
 				(font
@@ -5942,7 +5800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/4W Metal-Film Resistor, Min. 2% Tolerance"
+		(property "Description" "1/4W Thin-Film Resistor, 1% Tolerance"
 			(at 116.84 68.58 0)
 			(effects
 				(font
@@ -5951,25 +5809,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
-			(at 116.84 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY_PART" "RNF14FTD100RCT-ND"
-			(at 116.84 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
+		(property "DIGIKEY_PART" "311-100FRCT-ND"
 			(at 116.84 68.58 0)
 			(effects
 				(font
@@ -6120,6 +5960,15 @@
 				)
 			)
 		)
+		(property "DIGIKEY_PART" "1934-1489-1-ND"
+			(at 102.87 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c4a58b1d-53fa-4919-8d0f-696c4d59e195")
 		)
@@ -6227,6 +6076,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
@@ -6247,25 +6097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 39.37 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 39.37 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Description" "Transient Voltage Suppression diode"
 			(at 39.37 58.42 0)
 			(effects
 				(font
@@ -6341,7 +6173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+		(property "Datasheet" ""
 			(at 85.09 68.58 0)
 			(effects
 				(font
@@ -6359,25 +6191,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
-			(at 85.09 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIGIKEY_PART" "296-7194-1-ND"
-			(at 85.09 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
 			(at 85.09 68.58 0)
 			(effects
 				(font
@@ -6421,7 +6235,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 147.32 146.05 0)
+		(at 134.62 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6430,7 +6244,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb307013-8eb0-4154-8696-5d894d45fd07")
 		(property "Reference" "C2"
-			(at 151.13 144.7799 0)
+			(at 138.43 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6439,7 +6253,7 @@
 			)
 		)
 		(property "Value" "0.1µF 25V"
-			(at 151.13 147.3199 0)
+			(at 138.43 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,7 +6262,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 148.2852 149.86 0)
+			(at 135.5852 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,8 +6270,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C322C102K1R5TA.pdf"
-			(at 147.32 146.05 0)
+		(property "Datasheet" ""
+			(at 134.62 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6466,7 +6280,7 @@
 			)
 		)
 		(property "Description" "Unpolarized ceramic capacitor"
-			(at 147.32 146.05 0)
+			(at 134.62 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6474,26 +6288,8 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
-			(at 147.32 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY_PART" "399-9776-ND"
-			(at 147.32 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Kemet"
-			(at 147.32 146.05 0)
+		(property "DIGIKEY_PART" "4713-GMT31X5R106K50NT2CT-ND"
+			(at 134.62 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6527,7 +6323,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb39de0a-35a6-4591-95cf-0e5e4c98495d")
 		(property "Reference" "D4"
-			(at 184.15 72.3899 90)
+			(at 184.15 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6542,6 +6338,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
@@ -6562,25 +6359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 181.61 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 181.61 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Description" "Transient Voltage Suppression diode"
 			(at 181.61 73.66 0)
 			(effects
 				(font
@@ -6666,7 +6445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "Transient Voltage Suppression diode"
 			(at 83.82 167.64 0)
 			(effects
 				(font
@@ -6875,7 +6654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "Transient Voltage Suppression diode"
 			(at 83.82 153.67 0)
 			(effects
 				(font
@@ -6954,7 +6733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/4W Metal-Film Resistor, Min. 2% Tolerance"
+		(property "Description" "1/4W Thin-Film Resistor, 1% Tolerance"
 			(at 257.81 39.37 0)
 			(effects
 				(font
@@ -6963,25 +6742,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
-			(at 257.81 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY_PART" "S47CATR-ND"
-			(at 257.81 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
+		(property "DIGIKEY_PART" "311-47.0FRCT-ND"
 			(at 257.81 39.37 0)
 			(effects
 				(font
@@ -7139,7 +6900,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 147.32 185.42 0)
+		(at 134.62 180.34 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7149,7 +6910,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea10809b-89b4-4191-84e7-42ece5e1aa9e")
 		(property "Reference" "#PWR011"
-			(at 147.32 181.61 0)
+			(at 134.62 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7158,7 +6919,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 147.32 190.5 0)
+			(at 134.62 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7166,7 +6927,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 185.42 0)
+			(at 134.62 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7175,7 +6936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 185.42 0)
+			(at 134.62 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7184,7 +6945,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 147.32 185.42 0)
+			(at 134.62 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7230,6 +6991,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
@@ -7250,25 +7012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 39.37 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 39.37 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Description" "Transient Voltage Suppression diode"
 			(at 39.37 73.66 0)
 			(effects
 				(font
@@ -7362,30 +7106,21 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 59.69 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 59.69 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Rating" "30V/500mA"
 			(at 59.69 165.1 0)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
+			)
+		)
+		(property "DIGIKEY_PART" "NSR0530HT1GOSCT-ND"
+			(at 59.69 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7448,65 +7183,6 @@
 			)
 		)
 		(property "Description" "10 Position 2x5 Shrouded IDC Header, 2.54MM pitch"
-			(at 30.48 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "J"
-			(at 30.48 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 30.48 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "SBH11-PBPC-D05-ST-BK"
-			(at 30.48 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "9.1mm"
-			(at 30.48 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Sullins Connector Solutions"
-			(at 30.48 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "URL" ""
 			(at 30.48 162.56 0)
 			(effects
 				(font
@@ -7607,7 +7283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/4W Metal-Film Resistor, Min. 2% Tolerance"
+		(property "Description" "1/4W Thin-Film Resistor, 1% Tolerance"
 			(at 252.73 68.58 0)
 			(effects
 				(font
@@ -7616,25 +7292,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" ""
-			(at 252.73 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY_PART" "RNF14FTD100RCT-ND"
-			(at 252.73 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
+		(property "DIGIKEY_PART" "311-100FRCT-ND"
 			(at 252.73 68.58 0)
 			(effects
 				(font
@@ -7660,7 +7318,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 147.32 130.81 0)
+		(at 134.62 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7669,7 +7327,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe7eb2a4-92fc-4039-be9b-7a6196f79621")
 		(property "Reference" "#PWR010"
-			(at 147.32 134.62 0)
+			(at 134.62 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7678,7 +7336,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 147.32 125.73 0)
+			(at 134.62 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7686,7 +7344,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 130.81 0)
+			(at 134.62 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,7 +7353,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 130.81 0)
+			(at 134.62 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7704,7 +7362,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 147.32 130.81 0)
+			(at 134.62 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -12,7 +12,7 @@ Spectrum Portal is a **work-in-progress** open-hardware Eurorack module for inte
 - A whole butt ton of circuit protection mechanisms with many pairs of belts and suspenders.
 
 ## motivations
-- Seeing and studying the waveforms your creating is a fantastic tool for exploring synthesis. It's a really exciting thing to see, and it really enhances my modular experience. 
+- Seeing and studying the waveforms you're creating is a fantastic tool for exploring synthesis. It's a really exciting thing to see, and it really enhances my modular experience. 
 - Modules with a built in Oscilloscope are pretty cool. But I already have a dedicated Oscilloscope that would fit the bit really nicely, plus I'd love to be able to hookup a modular to an analog CRT scope for the coolness factor.
 - I'm fascinated by oscilloscope art and am excited by the possibilities of creating oscilloscope art with a modular synth.
 - I wanted something more robust than a passive adapter/cable, that lived inside the rack as a dedicated module. 

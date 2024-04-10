@@ -21,7 +21,8 @@ Spectrum Portal is a **work-in-progress** open-hardware Eurorack module for inte
 
 ## design goals
 - Open-hardware
-- Must be fully user-servicable and user-buildable (big SMD components that are easy to hand-solder are fine, tiny packages that require specialized equipment is not fine) 
+- Must be fully user-servicable and user-buildable (big SMD components that are easy to hand-solder are fine, tiny packages that require specialized equipment is not fine)
+- Strike a good compromise between features, quality, size and cost. Quality comes at the expense of added cost, features come at the expense of added size (and added cost).
 
 
 ## contributing

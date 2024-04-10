@@ -1,0 +1,955 @@
+(kicad_pcb
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(31 "B.Cu" signal)
+		(32 "B.Adhes" user "B.Adhesive")
+		(33 "F.Adhes" user "F.Adhesive")
+		(34 "B.Paste" user)
+		(35 "F.Paste" user)
+		(36 "B.SilkS" user "B.Silkscreen")
+		(37 "F.SilkS" user "F.Silkscreen")
+		(38 "B.Mask" user)
+		(39 "F.Mask" user)
+		(40 "Dwgs.User" user "User.Drawings")
+		(41 "Cmts.User" user "User.Comments")
+		(42 "Eco1.User" user "User.Eco1")
+		(43 "Eco2.User" user "User.Eco2")
+		(44 "Edge.Cuts" user)
+		(45 "Margin" user)
+		(46 "B.CrtYd" user "B.Courtyard")
+		(47 "F.CrtYd" user "F.Courtyard")
+		(48 "B.Fab" user)
+		(49 "F.Fab" user)
+		(50 "User.1" user)
+		(51 "User.2" user)
+		(52 "User.3" user)
+		(53 "User.4" user)
+		(54 "User.5" user)
+		(55 "User.6" user)
+		(56 "User.7" user)
+		(57 "User.8" user)
+		(58 "User.9" user)
+	)
+	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(pcbplotparams
+			(layerselection 0x00010fc_ffffffff)
+			(plot_on_all_layers_selection 0x0000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(viasonmask no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plotreference yes)
+			(plotvalue yes)
+			(plotfptext yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(footprint "Eurorack:Faceplate_Hole_3.5mm_Jack"
+		(layer "F.Cu")
+		(uuid "25d7803a-5c08-4f5d-bcb7-7993b1bd27f7")
+		(at 129 49)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fd067418-128d-4113-8705-115456cb1f1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Faceplate_Hole_3.5mm_Jack"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7e06569-1e9f-47ad-b7ad-381cb528629b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Eurorack:Faceplate_Hole_3.5mm_Jack"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d27f01cc-e31d-4c49-bb0d-b42f231218d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbc122e6-f684-4e8e-9425-41ee86172f1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9b574c4-83fe-4870-951f-749d9c7e482f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(uuid "bca61781-32a3-4bdc-a225-579e5af2d410")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f67cd6f9-0540-4b78-a5b4-5b9844e28e96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(footprint "Eurorack:Faceplate_Hole_3.5mm_Jack"
+		(layer "F.Cu")
+		(uuid "2a8f851e-ada6-485f-adf9-ea3661ceebbe")
+		(at 129 111.5)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fd067418-128d-4113-8705-115456cb1f1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Faceplate_Hole_3.5mm_Jack"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7e06569-1e9f-47ad-b7ad-381cb528629b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Eurorack:Faceplate_Hole_3.5mm_Jack"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d27f01cc-e31d-4c49-bb0d-b42f231218d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbc122e6-f684-4e8e-9425-41ee86172f1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9b574c4-83fe-4870-951f-749d9c7e482f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(uuid "bca61781-32a3-4bdc-a225-579e5af2d410")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f67cd6f9-0540-4b78-a5b4-5b9844e28e96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(footprint "Eurorack:Faceplate_Hole_3.5mm_Jack"
+		(layer "F.Cu")
+		(uuid "7da8ec1e-e0f2-4a81-92ba-bde032fdc57c")
+		(at 128.96 90.9289)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fd067418-128d-4113-8705-115456cb1f1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Faceplate_Hole_3.5mm_Jack"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7e06569-1e9f-47ad-b7ad-381cb528629b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Eurorack:Faceplate_Hole_3.5mm_Jack"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d27f01cc-e31d-4c49-bb0d-b42f231218d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbc122e6-f684-4e8e-9425-41ee86172f1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9b574c4-83fe-4870-951f-749d9c7e482f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(uuid "bca61781-32a3-4bdc-a225-579e5af2d410")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f67cd6f9-0540-4b78-a5b4-5b9844e28e96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(footprint "Eurorack:Faceplate_3HP_Mounting_Slots"
+		(layer "F.Cu")
+		(uuid "c2d6cf61-00da-4f8a-8f72-5d4c86aee33a")
+		(at 131.66 98)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ab9f353c-8028-45b7-a1c1-9b62d70f7f95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Faceplate_3HP_Mounting_Slots"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d8033663-f56f-4078-9244-d017d887ca66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Eurorack:Faceplate_3HP_Mounting_Slots"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b891a3e9-51ca-4e8c-819e-54e0efa7b079")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c77ec7d-386c-4d9d-bb13-b8f2cd4fe746")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09089545-3efc-4292-85b0-6d5d2ff59372")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_rect
+			(start -10.16 -61.75)
+			(end 4.84 66.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(uuid "2c4dff25-3330-4927-beab-aed4dd6f7d9c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a77c349e-dca6-4a92-81d9-32a7a32e91ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(dimension
+			(type aligned)
+			(layer "Dwgs.User")
+			(uuid "0c5a2720-56e7-4c75-9170-6388e95fc945")
+			(pts
+				(xy 129 161.75) (xy 121.51 161.75)
+			)
+			(height -4.35)
+			(gr_text "7.5 mm"
+				(at 125.255 165 0)
+				(layer "Dwgs.User")
+				(uuid "0c5a2720-56e7-4c75-9170-6388e95fc945")
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.1)
+					)
+				)
+			)
+			(format
+				(prefix "")
+				(suffix "")
+				(units 3)
+				(units_format 1)
+				(precision 4)
+				(override_value "7.5")
+			)
+			(style
+				(thickness 0.1)
+				(arrow_length 1.27)
+				(text_position_mode 0)
+				(extension_height 0.58642)
+				(extension_offset 0.5) keep_text_aligned)
+		)
+		(dimension
+			(type aligned)
+			(layer "Dwgs.User")
+			(uuid "580f9fc7-6ad0-4e11-99e6-f05b96ff027f")
+			(pts
+				(xy 129 161.75) (xy 129 164.75)
+			)
+			(height -2.5)
+			(gr_text "3.0000 mm"
+				(at 130.4 163.25 90)
+				(layer "Dwgs.User")
+				(uuid "580f9fc7-6ad0-4e11-99e6-f05b96ff027f")
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.1)
+					)
+				)
+			)
+			(format
+				(prefix "")
+				(suffix "")
+				(units 3)
+				(units_format 1)
+				(precision 4)
+			)
+			(style
+				(thickness 0.1)
+				(arrow_length 1.27)
+				(text_position_mode 0)
+				(extension_height 0.58642)
+				(extension_offset 0.5) keep_text_aligned)
+		)
+		(dimension
+			(type aligned)
+			(layer "Dwgs.User")
+			(uuid "d59d7ab9-f988-448a-8d1d-ac89ecd3ffb2")
+			(pts
+				(xy 129 39.25) (xy 121.51 39.25)
+			)
+			(height -4.35)
+			(gr_text "7.4900 mm"
+				(at 125.255 42.5 0)
+				(layer "Dwgs.User")
+				(uuid "d59d7ab9-f988-448a-8d1d-ac89ecd3ffb2")
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.1)
+					)
+				)
+			)
+			(format
+				(prefix "")
+				(suffix "")
+				(units 3)
+				(units_format 1)
+				(precision 4)
+			)
+			(style
+				(thickness 0.1)
+				(arrow_length 1.27)
+				(text_position_mode 0)
+				(extension_height 0.58642)
+				(extension_offset 0.5) keep_text_aligned)
+		)
+		(dimension
+			(type aligned)
+			(layer "Dwgs.User")
+			(uuid "ddaa739f-d019-42a6-a570-96a7f58b066b")
+			(pts
+				(xy 125.5 39.24) (xy 125.52 36.24)
+			)
+			(height 0.080577)
+			(gr_text "3.000 mm"
+				(at 124.490599 37.733204 89.6180338)
+				(layer "Dwgs.User")
+				(uuid "ddaa739f-d019-42a6-a570-96a7f58b066b")
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.1)
+					)
+				)
+			)
+			(format
+				(prefix "")
+				(suffix "")
+				(units 3)
+				(units_format 1)
+				(precision 3)
+			)
+			(style
+				(thickness 0.1)
+				(arrow_length 1.27)
+				(text_position_mode 0)
+				(extension_height 0.58642)
+				(extension_offset 0.5) keep_text_aligned)
+		)
+		(pad "1" thru_hole oval
+			(at -2.66 -58.75 90)
+			(size 3.75 6)
+			(drill oval 3.2 5.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "cd75e4d6-ab41-48e6-839c-4544facc3b1b")
+		)
+		(pad "1" thru_hole oval
+			(at -2.66 63.75 90)
+			(size 3.75 6)
+			(drill oval 3.2 5.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "b45472ce-fe21-42b8-aad4-40fc8262274c")
+		)
+	)
+	(footprint "Eurorack:Faceplate_Hole_3.5mm_Jack"
+		(layer "F.Cu")
+		(uuid "c3fd2a92-782e-4ce5-b379-1bf6ac2f2759")
+		(at 129 153.5)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fd067418-128d-4113-8705-115456cb1f1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Faceplate_Hole_3.5mm_Jack"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7e06569-1e9f-47ad-b7ad-381cb528629b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Eurorack:Faceplate_Hole_3.5mm_Jack"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d27f01cc-e31d-4c49-bb0d-b42f231218d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbc122e6-f684-4e8e-9425-41ee86172f1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9b574c4-83fe-4870-951f-749d9c7e482f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(uuid "bca61781-32a3-4bdc-a225-579e5af2d410")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f67cd6f9-0540-4b78-a5b4-5b9844e28e96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(footprint "Eurorack:Faceplate_Hole_3.5mm_Jack"
+		(layer "F.Cu")
+		(uuid "cd2d2dff-8e63-4e2e-936d-ab6cea12683d")
+		(at 128.96 132.8578)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fd067418-128d-4113-8705-115456cb1f1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Faceplate_Hole_3.5mm_Jack"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7e06569-1e9f-47ad-b7ad-381cb528629b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Eurorack:Faceplate_Hole_3.5mm_Jack"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d27f01cc-e31d-4c49-bb0d-b42f231218d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbc122e6-f684-4e8e-9425-41ee86172f1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9b574c4-83fe-4870-951f-749d9c7e482f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(uuid "bca61781-32a3-4bdc-a225-579e5af2d410")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f67cd6f9-0540-4b78-a5b4-5b9844e28e96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(footprint "Eurorack:Faceplate_Hole_3.5mm_Jack"
+		(layer "F.Cu")
+		(uuid "ecdcd7a5-45a0-4312-bbb9-08e00ed0dcfd")
+		(at 129 69.6)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fd067418-128d-4113-8705-115456cb1f1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Faceplate_Hole_3.5mm_Jack"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7e06569-1e9f-47ad-b7ad-381cb528629b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Eurorack:Faceplate_Hole_3.5mm_Jack"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d27f01cc-e31d-4c49-bb0d-b42f231218d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbc122e6-f684-4e8e-9425-41ee86172f1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9b574c4-83fe-4870-951f-749d9c7e482f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(uuid "bca61781-32a3-4bdc-a225-579e5af2d410")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f67cd6f9-0540-4b78-a5b4-5b9844e28e96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(gr_text "⚀"
+		(at 120.015 170.815 0)
+		(layer "F.SilkS")
+		(uuid "ec3a4ecc-f842-47cd-8195-9d0999f68949")
+		(effects
+			(font
+				(face "AR PL KaitiM Big5")
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+		(render_cache "⚀" 0)
+	)
+	(gr_text "⚀"
+		(at 120.015 200.365 0)
+		(layer "F.SilkS")
+		(uuid "ef49694a-93a6-491d-98a3-95428ba12975")
+		(effects
+			(font
+				(face "AR PL KaitiM Big5")
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+		(render_cache "⚀" 0)
+	)
+)
